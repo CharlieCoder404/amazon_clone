@@ -1,0 +1,387 @@
+* {
+    margin : 0;
+    font-family: Arial,sans-serif;
+    border: border-box;
+}
+
+.border {
+    border: 2px solid transparent;
+    border-radius: 4px;
+}
+
+.border:hover {
+    border-color: white;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+}
+
+/* Navigation Bar : Top */
+
+#nav_top {
+    display: flex;
+    background-color: #131921;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+}
+
+#nav_logo a,img {
+    height: 50px;
+}
+
+#nav_location {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+
+#nav_location_icon a{
+    position: relative;
+    top: 5px;
+    color: white;
+    font-size:1.3rem;
+    margin-right:3px;
+}
+
+#nav_location_adress_top{
+    color: #cccccc;
+    font-size: 0.7rem;
+    text-decoration: none;
+}
+
+#nav_location_adress_bottom{
+    color: #ffffff;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#nav_search{
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 40px;
+    background-color: #E6E6E6;
+    border-color: transparent;
+}
+
+#nav_search:hover{
+    border: 4px solid #FEBD69;
+}
+
+#nav_search_category{
+    height: 40px;
+    width:40px;
+    border:2px solid #E6E6E6;
+    border-right:1px solid #cccccc ;
+    border-top-left-radius:4px ;
+    border-bottom-left-radius:4px ;
+    background-color: #E6E6E6;
+}
+
+#nav_search_bar_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    height: 40px;
+    width: 40px;
+    background-color: #FEBD69;
+    border: 1.5px solid #FEBD69;
+    border-top-right-radius: 4px ;
+    border-bottom-right-radius: 4px ;
+}
+
+#nav_search_input{
+    width: 100%;
+    height: 40px;
+    border: none;
+}
+
+#nav_language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    height: 40px;
+    width: 70px;
+}
+
+#nav_language_flag{
+    margin-right: 3px;
+    font-size: 1.5rem;
+}
+
+#nav_language_name{
+    font-size: 1rem;
+}
+
+#nav_account{
+    height: 40px;
+    width : 140px;
+    padding-left: 1px;
+    padding-top: 8px;
+}
+
+#nav_account_top a{
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 0.7rem;
+    display: block;
+}
+
+#nav_account_bottom select{
+    background-color: #131921;
+    border: none;
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+#nav_order{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 70px;
+}
+
+#nav_order a{
+    text-decoration: none;
+}
+
+#nav_order_top p{
+    color: #cccccc;
+    font-size: 0.7rem;
+}
+
+#nav_order_bottom p{
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+#nav_cart{
+    height: 40px;
+    width:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav_cart_icon a{
+    font-size: 1.5rem;
+    margin-right: 3px;
+    color: white;
+}
+
+#nav_cart_title a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.85rem;    
+}
+
+/* Navigation Bar : Bottom */
+
+#nav_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#232F3E;
+    height: 40px;
+}
+
+#nav_bottom_sidebar_button{
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    padding: 2px;
+    color: #ffffff;
+}
+
+#nav_bottom_sidebar_icon{
+    font-size: 1.5rem;
+    margin-right: 3px;
+}
+
+#nav_bottom_list{
+    width: 100%;
+    height: 36px;
+}
+
+#nav_bottom_list ul{
+    display: flex;
+    height: 32px;
+    align-items: center;
+    padding-left: 10px;
+}
+
+#nav_bottom_list li{
+    display: inline-block;
+    list-style: none;
+    padding-left: 4px ;
+    padding-right:4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+#nav_bottom_list a{
+    text-decoration: none;
+    color: white;
+}
+
+#nav_bottom_image a{
+    display: flex;
+    background-image:url(nav_bottom_right_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 350px;
+}
+
+/* Hero Page */
+main{
+    height: 1600px;
+    width: 99vw;
+    background-image: url(hero_image.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #E3E6E6;
+}
+
+#banner {
+    width: 100vw;
+    height: 300px;
+}
+
+#content_box1,#content_box2,#content_box3 {
+    height: 430px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: transparent;
+    padding: 0px;
+}
+
+.product_heading{
+    height: 50px;
+    padding: 10px;
+    text-transform: capitalize;
+    color: #424343;
+}
+
+.photo_link {
+    height : 300px;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5px;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+.see_more {
+    display: block;
+    height: 20px;
+    text-decoration: none;
+    color: #54A0AD;
+    font-size: small;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.see_more:hover{
+    text-decoration: underline solid red;
+    color: red;
+    filter: contrast(100%);
+}
+
+.content_inner_box{
+    background-color: white;
+    width: 370px;
+    border-radius: 4px;
+}
+
+/* Footer */
+
+#footer_backToTop{
+    border: none ;
+}
+
+#footer_backToTop_anchor:hover{
+    background-color: #3f5167;
+}
+
+#footer_backToTop a{
+    text-decoration: none;
+}
+
+#footer_backToTop_anchor{
+    width: 100vw;
+    height: 50px;
+    background-color: #37475A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#more_on_amazon{
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: start;
+    background-color: #232F3E;
+    border: none;
+}
+
+.list_heading_footer {
+    color:white;
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+#list_footer li{
+    list-style: none;
+    color: #cccccc;
+    font-size: 0.9rem;
+    padding: 3px;
+}
+
+#list_footer li:hover{
+    text-decoration: underline solid white;
+}
+
+#footer_amazon_logo_anchor{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    width: 100vw;
+    background-color: #232F3E;
+    border-top: 1px solid #555555;
+}
+
+#footer_copyrights{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #cccccc;
+    height: 100px;
+    width: 100vw;
+    padding: 5px;
+    font-size: 10px;
+    background-color: #131921;
+}
+
+#footer_copyrights_options div a{
+    display: flex;
+    
+}

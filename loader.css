@@ -1,0 +1,56 @@
+body{
+    background-color: whitesmoke;
+}
+
+#outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height: 750px;
+    background-color:transparent ;
+}
+
+#inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    border-radius: 50%;
+    border-top: 20px solid #5F8670;
+    border-bottom: 20px solid #B80000;
+    border-left: 20px solid #FF9800;
+    border-right: 20px solid #820300;
+    animation: spin 0.5s linear none infinite;
+}
+
+p{
+    position: relative;
+    top: 90px;
+    right: 95px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    position: relative;
+    top: 110px;
+    right: 150px;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+@keyframes spin{
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
